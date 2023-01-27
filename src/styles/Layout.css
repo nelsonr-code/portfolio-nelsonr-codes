@@ -56,5 +56,5 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  @apply bg-[var(--color-secondary-dark)] text-[var(--white)];
+  @apply bg-[var(--color-secondary)] text-[var(--white)];
 }
