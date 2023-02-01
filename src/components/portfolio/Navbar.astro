@@ -3,27 +3,31 @@ import me from '../../images/me.jpg'
 ---
 
 <div class="flex bg-[#232046]">
-  <aside class="min-h-screeen flex-col hidden bg-[#1F1C3F]" id="menu">
+  <aside class="flex-col hidden lg:flex lg:w-96 bg-[#1F1C3F]" id="menu">
     <div class="flex items-center justify-center px-4 h-12">
       <span class="">
         Menu
       </span>
     </div>
-    <div class="flex flex-col">
-      <nav class="min-h-screen flex flex-col justify-center items-center">
-        <img class="rounded-full w-32 mb-2 mt-4 border-solid border-4 border-[#B5E6DB]" src={me} alt="me laughing">
-        <ul class="flex flex-col items-center con py-4">
-          <li class="my-2 px-4 py-2 rounded-lg bg-[#B5E6DB]">
-            <a class="text-[#3C3D50]" href="#">Home</a>
+    <div class="flex flex-col h-screen items-center justify-center">
+      <div class="flex flex-col items-center mb-4 profile">
+        <img class="rounded-full w-28 mb-2 border-solid border-4 border-[#B5E6DB]" src={me} alt="me lauhging">
+        <h3 class="name">Nelson Rivas</h3>
+        <p class="role">Fullstack Developer</p>
+      </div>
+      <nav class="">
+        <ul class="flex flex-col items-center">
+          <li class="w-full">
+            <a class="flex justify-center my-1 px-4 py-1 rounded-lg bg-[#B5E6DB] text-[#3C3D50]" href="#">Home</a>
           </li>
-          <li class="my-2 px-4 py-2  rounded-lg bg-[#B5E6DB]">
-            <a class="text-[#3C3D50]" href="#">Projects</a>
+          <li class="w-full">
+            <a class="flex justify-center my-1 px-4 py-1 rounded-lg bg-[#B5E6DB] text-[#3C3D50]" href="#">Projects</a>
           </li>
-          <li class="my-2 px-4 py-2  rounded-lg bg-[#B5E6DB]">
-            <a class="text-[#3C3D50]" href="#">Skills</a>
+          <li class="w-full">
+            <a class="flex justify-center my-1 px-4 py-1  rounded-lg bg-[#B5E6DB] text-[#3C3D50]" href="#">Skills</a>
           </li>
-          <li class="my-2 px-4 py-2  rounded-lg bg-[#B5E6DB]">
-            <a class="text-[#3C3D50]" href="#">Contact</a>
+          <li class="w-full">
+            <a class="flex justify-center my-1 px-4 py-1 rounded-lg bg-[#B5E6DB] text-[#3C3D50]" href="#">Contact</a>
           </li>
         </ul>
       </nav>
